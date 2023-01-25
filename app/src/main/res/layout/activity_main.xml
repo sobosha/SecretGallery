@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relMaster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/imgBlackMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50000000"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:id="@+id/top_status"
+        android:background="#00FFFFFF"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/folder"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:id="@+id/temp"/>
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_toLeftOf="@id/temp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:text="عنوان"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_20sdp"
+            android:id="@+id/title"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relMainDialogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relSnackBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

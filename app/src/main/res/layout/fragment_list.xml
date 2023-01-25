@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_background">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_list"
+        android:layout_marginTop="@dimen/_50sdp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textview_nullRec"
+        android:layout_centerInParent="true"
+        android:text="هیچ فایلی برای نمایش وجود ندارد"
+        android:background="#00FFFFFF"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@color/colorWhite"/>
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@id/textview_nullRec"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:src="@drawable/plus"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/floating_plus2"
+        android:layout_marginTop="@dimen/_10sdp"/>
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:src="@drawable/plus"
+        android:id="@+id/floating_plus"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Dialog_pardakht"
+        />
+</RelativeLayout>

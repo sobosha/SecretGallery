@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="false"
+    android:background="#37000000">
+    <io.alterac.blurkit.BlurLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:blk_fps="0"
+        android:id="@+id/blurlayuot"/>
+    <RelativeLayout
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@drawable/shape_warning"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_15sdp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="اولین عکسی که حذف می شود در برخی از گوشی ها در گالری همچنان نشان داده می شود که با انتخاب عکس دوم عکس اول هم حذف می شود"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textview_descDiaolg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_above="@id/temp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/temp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="تایید"
+                        android:textSize="@dimen/_14sdp"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/btn_ok"
+                        android:background="@drawable/shape_stroke_white"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

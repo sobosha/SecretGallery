@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="#37000000">
+    <io.alterac.blurkit.BlurLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:blk_fps="0"
+        android:id="@+id/blurlayuot"/>
+    <RelativeLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/shape_warning"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:text="رمز عبور شما:"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/textview_ِDialogQuestion"/>
+                 <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:text="متوجه شدم"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/btn_exit_DialogQuestion"
+                android:background="@drawable/shape_stroke_white"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/_10sdp"/>
+    </RelativeLayout>
+</RelativeLayout>

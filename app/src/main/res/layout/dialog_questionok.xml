@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="false"
+    android:background="#37000000">
+    <io.alterac.blurkit.BlurLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:blk_fps="0"/>
+    <RelativeLayout
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@drawable/shape_warning"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_20sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سوال امنیتی تنظیم شد\nدر صورت فراموشی رمز عبور می توانید از آن استفاده کنید"
+            android:textSize="@dimen/_17sdp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/textview_Pardakht"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@id/textview_Pardakht"
+            android:layout_marginTop="@dimen/_20sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="متوجه شدم"
+                    android:textSize="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/btn_ok"
+                    android:background="@drawable/shape_stroke_white"
+                    android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

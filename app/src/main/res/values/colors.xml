@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#fff4ee</color>
+
+    <color name="colorKeremi">#fff4ee</color>
+
+    <color name="colorNavL">#FEF3EF</color>
+
+    <color name="colorNavD">#34468A</color>
+
+    <color name="colorNavD2">#62679F</color>
+
+    <color name="colorDark">#3b4b7d</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="orangeSeekBar">#e69000</color>
+
+    <color name="colorDarkVery">#161d32</color>
+
+    <color name="purpleDark1">#9999ff</color>
+
+    <color name="lightPink">#FFB8A1</color>
+
+    <color name="lightBlue">#c0eaff</color>
+
+    <color name="purple">#8b80ff</color>
+
+    <color name="newLight">#3b2c3964</color>
+
+    <color name="newDarkSorme">#363f63</color>
+
+    <color name="colorKerem">#fff4ee</color>
+
+    <color name="colorSorme">#2c3964</color>
+
+    <color name="colorRed">#ff0000</color>
+
+    <color name="lightG">#b8bbcc</color>
+
+    <color name="colorGreen">#95d23a</color>
+
+    <color name="colorBlue">#24e1ff</color>
+
+    <color name="colorYellow">#ffb300</color>
+
+    <color name="colorRed2">#c92851</color>
+
+    <color name="dark_text_second">#cfcfcf</color>
+
+    <color name="orange">#f6a331</color>
+
+    <color name="light_primary">#fff4ee</color>
+
+    <color name="light_primary_dark">#fff4ee</color>
+
+    <color name="light_accent">#fff4ee</color>
+
+    <color name="light_gray">#b5b5b5</color>
+
+    <color name="perpul">#9287ff</color>
+
+    <color name="ggray">#dcdcdc</color>
+
+    <!--___________________________________________ -->
+
+
+    <!--FragMain Colors-->
+
+
+    <color name="colorRedMain">#fe0856</color>
+
+    <color name="colorGreenMain">#03caa9</color>
+
+    <color name="colorLightGreen">#17bd79</color>
+
+    <color name="colorPRed">#FE0055</color>
+
+    <color name="colorPYellow">#FFB31A</color>
+
+    <color name="colorPGray">#768194</color>
+
+    <color name="colorDrakWhiteProcess">#56628a</color>
+
+    <color name="grayyy">#56628a</color>
+
+    <color name="colorPurpleMain">#a88fff</color>
+
+    <color name="colorDarkGreen">#037580</color>
+
+    <color name="colorDarkBlue">#253858</color>
+
+    <color name="colorGray">#768194</color>
+
+    <color name="colorLightOrange">#f7bd00</color>
+
+    <color name="colorOrange">#FFB31A</color>
+
+    <color name="colorGrayChart">#dee4e4</color>
+
+    <color name="colorLightGray">#788295</color>
+
+    <color name="colorLightTheme">#fff4ee</color>
+
+    <color name="colorRedDark">#b10000</color>
+
+    <color name="colorLightRed">#fe0856</color>
+
+    <color name="veryLightGray">#b8c5cc</color>
+
+    <color name="yellow">#ffe600</color>
+
+    <color name="blueNafti">#2c3964</color>
+
+    <color name="blueLight">#737a9e</color>
+
+    <color name="sorme">#5a6690</color>
+
+    <color name="asemoni">#eaeff3</color>
+
+    <color name="sormeii">#222f5f</color>
+
+    <color name="chartLight">#dee4e4</color>
+
+    <color name="chartDark">#5a6690</color>
+
+    <color name="nilli">#5972cf</color>
+
+    <!--___________________________________________ -->
+
+
+    <color name="green">#02c3a3</color>
+
+    <!--_____________________________________-->
+
+
+    <color name="DrakBlueThem">#172158</color>
+
+    <!-- _________________________ -->
+
+
+    <color name="waterColor">#75a2e9</color>
+
+    <color name="darkNew">#192040</color>
+
+    <color name="newGray">#56628a</color>
+
+    <color name="grayIcon">#707e8e</color>
+
+    <color name="blueColor">#26c6da</color>
+
+    <color name="blueColor2">#00bbff</color>
+
+    <color name="lightRed">#fc573b</color>
+
+    <color name="ppurpleLight">#be63f9</color>
+
+    <color name="yellow2">#ffd200</color>
+
+    <color name="veryDarkSorme">#253858</color>
+
+    <color name="abiAsemoni">#c0edff</color>
+
+    <color name="newGray2">#676c73</color>
+
+    <color name="newBlue">#0671f2</color>
+
+    <color name="newyellow">#ffb726</color>
+
+    <color name="newRed">#f60057</color>
+
+    <color name="colorRedLight">#c92851</color>
+
+    <color name="lightGreen">#3dccb4</color>
+
+    <color name="rsbColorThumbBorder">#FFD7D7D7</color>
+
+    <color name="rsbColorThumbDefault">#FFFFFF</color>
+</resources>

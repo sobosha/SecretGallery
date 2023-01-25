@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_background">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:id="@+id/image_splash"
+            android:src="@drawable/icongallery"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:text="گالری مخفی"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:layout_below="@id/image_splash"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textview_splash"
+            />
+        <ProgressBar
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@id/textview_splash"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:id="@+id/progress_splash"
+            style="@style/gamePageProgressBar"
+            android:progressDrawable="@drawable/progress_splash"
+            android:layout_centerHorizontal="true"
+            android:max="100"/>
+
+    </RelativeLayout>
+</RelativeLayout>

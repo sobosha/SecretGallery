@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_440sdp"
+        android:layout_centerInParent="true">
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/images"
+        android:elevation="@dimen/_10sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:text="عکس های مخفی"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:id="@+id/video"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:background="@drawable/video2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:text="ویدیو های مخفی"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/video"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_exit"/>
+</RelativeLayout>
